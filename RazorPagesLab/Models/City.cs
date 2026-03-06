@@ -14,6 +14,7 @@ public class City
      public string? StateRegion  { get; set; }
     public string? Country { get; set; }
     public int Population { get; set; }
+    [Display(Name = "Days Spent")]
     public int DaysSpent { get; set; }
 
 }
