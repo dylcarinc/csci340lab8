@@ -1,6 +1,6 @@
 using System.ComponentModel.DataAnnotations;
 
-namespace RazorPagesCities.Models;
+namespace RazorPagesLab.Models;
 
 public class City
 {

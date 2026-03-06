@@ -5,16 +5,16 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.AspNetCore.Mvc.Rendering;
-using RazorPagesCities.Models;
-using RazorPagesMovie.Data;
+using RazorPagesLab.Models;
+using RazorPagesLab.Data;
 
 namespace RazorPagesLab.Pages.Cities
 {
     public class CreateModel : PageModel
     {
-        private readonly RazorPagesMovie.Data.RazorPagesMovieContext _context;
+        private readonly RazorPagesLab.Data.RazorPagesLabContext _context;
 
-        public CreateModel(RazorPagesMovie.Data.RazorPagesMovieContext context)
+        public CreateModel(RazorPagesLab.Data.RazorPagesLabContext context)
         {
             _context = context;
         }
